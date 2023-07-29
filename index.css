@@ -1,0 +1,159 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+
+/*------------------------------------------------------------HOME PAGE------------------------------------------------------- */
+
+.home-container {
+  position: absolute;
+  height: 350px;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  background: #a8b7ff;
+  box-shadow: 20px 20px 60px #8f9cd9, -20px -20px 60px #c1d2ff;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.question {
+  margin: 20px 0;
+  padding-left: 20px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.nav ul {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+li {
+  position: relative;
+  display: flex;
+  gap: 3px;
+  margin-left: 20px;
+}
+
+.home-container label {
+  position: absolute;
+  left: 15px;
+  top: -1px;
+  font-weight: bold;
+}
+
+.submit-form {
+  width: 100%;
+  background-color: lightgreen;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  border-radius: 0 0 50px 50px;
+  transition: 0.5s;
+}
+
+.submit-form:hover {
+  background-color: #4caf50;
+}
+
+.submit-form button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+}
+
+/*------------------------------------------------------------CONTACT FORM------------------------------------------------------- */
+
+.contact-form-container h1 {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font: bold;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form label,
+input,
+textarea,
+button {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+/*------------------------------------------------------------ABOUT PAGE------------------------------------------------------- */
+
+.about-container {
+  padding: 40px;
+}
+
+.about-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-container h2 {
+  margin-top: 15px;
+}
+
+.about-container li {
+  list-style: circle;
+}
